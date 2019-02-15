@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
         console.log(x * 2);
       });
     } catch (e) {
-      Raven.captureException(new Error(`Oops, something went wrong: ${e}`));
+      Raven.captureException(new Error(`Eita, aconteceu algo errado: ${e}`));
     }
   }
 
